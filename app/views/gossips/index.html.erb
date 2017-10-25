@@ -1,4 +1,4 @@
-<h1>Salut !</h1>
+<h1>Salut ! Viens, on va gossiper comme des petites loutres</h1>
 
 <table>
   <thead>
@@ -15,6 +15,7 @@
         <td><%= gossip.anonymous_author %></td>
         <td><%= gossip.content %></td>
         <td><%= link_to 'Show', gossip %></td>
+        <td><%= link_to 'Edit', edit_gossip_path(gossip) %></td>
       </tr>
     <% end %>
   </tbody>

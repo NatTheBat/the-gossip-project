@@ -1,0 +1,7 @@
+<h1>Tu as des remords ? Edite ton gossip</h1>
+
+<%= form_tag gossip_path(@gossip), method: :put do %>
+
+<%= render 'form' %> 
+  <%= submit_tag "Modifier le gossip"%>
+<% end %>
